@@ -423,6 +423,24 @@
 											"height": 13,
 											"text": "#obstaculos: Obstaculo[0..*]",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGZpfDIEeIojGk=",
+											"_parent": {
+												"$ref": "AAAAAAGR5lFHfJZxI9s="
+											},
+											"model": {
+												"$ref": "AAAAAAGZpfDH8eIl7ps="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 365,
+											"top": 586,
+											"width": 216,
+											"height": 13,
+											"text": "#power_ups: PowerUp[0..*]",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
@@ -430,7 +448,7 @@
 									"left": 360,
 									"top": 521,
 									"width": 226,
-									"height": 68
+									"height": 83
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -454,7 +472,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 365,
-											"top": 594,
+											"top": 609,
 											"width": 216,
 											"height": 13,
 											"text": "+Ruta()",
@@ -472,7 +490,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 365,
-											"top": 609,
+											"top": 624,
 											"width": 216,
 											"height": 13,
 											"text": "+complejidad(): float",
@@ -490,7 +508,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 365,
-											"top": 624,
+											"top": 639,
 											"width": 216,
 											"height": 13,
 											"text": "-mayor_masa(): float",
@@ -508,7 +526,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 365,
-											"top": 639,
+											"top": 654,
 											"width": 216,
 											"height": 13,
 											"text": "+nombre(): String",
@@ -518,7 +536,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 360,
-									"top": 589,
+									"top": 604,
 									"width": 226,
 									"height": 68
 								},
@@ -563,7 +581,7 @@
 							"left": 360,
 							"top": 496,
 							"width": 225,
-							"height": 161,
+							"height": 176,
 							"nameCompartment": {
 								"$ref": "AAAAAAGR5lFHfJZsXGI="
 							},
@@ -5607,6 +5625,19 @@
 							"visibility": "protected",
 							"type": {
 								"$ref": "AAAAAAGR5lcF05htIVg="
+							},
+							"multiplicity": "0..*"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGZpfDH8eIl7ps=",
+							"_parent": {
+								"$ref": "AAAAAAGR5lFHe5Zpxs8="
+							},
+							"name": "power_ups",
+							"visibility": "protected",
+							"type": {
+								"$ref": "AAAAAAGR5lMLxpfDo/g="
 							},
 							"multiplicity": "0..*"
 						}
