@@ -493,7 +493,7 @@
 											"top": 624,
 											"width": 216,
 											"height": 13,
-											"text": "+complejidad(): float",
+											"text": "+complejidad(): int",
 											"horizontalAlignment": 0
 										},
 										{
@@ -511,7 +511,7 @@
 											"top": 639,
 											"width": 216,
 											"height": 13,
-											"text": "-mayor_masa(): float",
+											"text": "-mayor_masa(): int",
 											"horizontalAlignment": 0
 										},
 										{
@@ -719,7 +719,7 @@
 											"top": 46,
 											"width": 232,
 											"height": 13,
-											"text": "#velocidad: float",
+											"text": "#velocidad: int",
 											"horizontalAlignment": 0
 										},
 										{
@@ -791,7 +791,7 @@
 											"top": 99,
 											"width": 232,
 											"height": 13,
-											"text": "#Vehiculo(v: float, pes: float, pat: String)",
+											"text": "#Vehiculo(v: float, pes: int, pat: String)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -827,7 +827,7 @@
 											"top": 129,
 											"width": 232,
 											"height": 13,
-											"text": "+get_velocidad(): float",
+											"text": "+get_velocidad(): int",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1389,7 +1389,7 @@
 											"top": 69,
 											"width": 312,
 											"height": 13,
-											"text": "#Transito(v: float, pes: float, pat: String, pu: PowerUp)",
+											"text": "#Transito(v: int, pes: float, pat: String, pu: PowerUp)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1407,7 +1407,7 @@
 											"top": 84,
 											"width": 312,
 											"height": 13,
-											"text": "#Transito(v: float, pes: float, pat: String)",
+											"text": "#Transito(v: int, pes: float, pat: String)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1479,7 +1479,7 @@
 											"top": 144,
 											"width": 312,
 											"height": 13,
-											"text": "+masa(): float",
+											"text": "+masa(): int",
 											"horizontalAlignment": 0
 										}
 									],
@@ -1706,7 +1706,7 @@
 											"top": 359,
 											"width": 232,
 											"height": 13,
-											"text": "#combustible: float",
+											"text": "#combustible: int",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1724,7 +1724,7 @@
 											"top": 374,
 											"width": 232,
 											"height": 13,
-											"text": "#puntaje: float",
+											"text": "#puntaje: int",
 											"horizontalAlignment": 0
 										}
 									],
@@ -1778,7 +1778,7 @@
 											"top": 412,
 											"width": 232,
 											"height": 13,
-											"text": "+set_velocidad(v: float)",
+											"text": "+set_velocidad(v: int)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1796,7 +1796,7 @@
 											"top": 427,
 											"width": 232,
 											"height": 13,
-											"text": "+set_combustible(c: float)",
+											"text": "+set_combustible(c: int)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1814,7 +1814,7 @@
 											"top": 442,
 											"width": 232,
 											"height": 13,
-											"text": "+set_puntaje(p: float)",
+											"text": "+set_puntaje(p: int)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1832,7 +1832,7 @@
 											"top": 457,
 											"width": 232,
 											"height": 13,
-											"text": "+get_velocidad(): float",
+											"text": "+get_velocidad(): int",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1850,7 +1850,7 @@
 											"top": 472,
 											"width": 232,
 											"height": 13,
-											"text": "+get_combustible(): float",
+											"text": "+get_combustible(): int",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1868,7 +1868,7 @@
 											"top": 487,
 											"width": 232,
 											"height": 13,
-											"text": "+get_puntaje(): float",
+											"text": "+get_puntaje(): int",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1934,6 +1934,7 @@
 											"model": {
 												"$ref": "AAAAAAGR5mxdIZo727c="
 											},
+											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 69,
@@ -1955,7 +1956,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 69,
-											"top": 562,
+											"top": 547,
 											"width": 232,
 											"height": 13,
 											"text": "+quitar_power_ups()",
@@ -1973,7 +1974,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 69,
-											"top": 577,
+											"top": 562,
 											"width": 232,
 											"height": 13,
 											"text": "+agregar_misil(m: Misil)",
@@ -1991,7 +1992,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 69,
-											"top": 592,
+											"top": 577,
 											"width": 232,
 											"height": 13,
 											"text": "+lanzar_misil(o: Obstaculo)",
@@ -2009,7 +2010,7 @@
 											"font": "Arial;13;0",
 											"parentStyle": true,
 											"left": 69,
-											"top": 607,
+											"top": 592,
 											"width": 232,
 											"height": 13,
 											"text": "+pierde_partida()",
@@ -2021,7 +2022,7 @@
 									"left": 64,
 									"top": 392,
 									"width": 242,
-									"height": 233
+									"height": 218
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -2777,7 +2778,7 @@
 											"top": 465,
 											"width": 312,
 											"height": 13,
-											"text": "+masa(): float ++",
+											"text": "+masa(): int ++",
 											"horizontalAlignment": 0
 										}
 									],
@@ -2967,7 +2968,7 @@
 											"top": 46,
 											"width": 193.12158203125,
 											"height": 13,
-											"text": "#puntaje: float",
+											"text": "#puntaje: int",
 											"horizontalAlignment": 0
 										}
 									],
@@ -3003,7 +3004,7 @@
 											"top": 69,
 											"width": 193.12158203125,
 											"height": 13,
-											"text": "+get_puntaje(): float",
+											"text": "+get_puntaje(): int",
 											"horizontalAlignment": 0
 										}
 									],
@@ -3487,7 +3488,7 @@
 											"top": 382,
 											"width": 192,
 											"height": 13,
-											"text": "+afectar(t: transito): +",
+											"text": "+afectar(t: Transito): +",
 											"horizontalAlignment": 0
 										}
 									],
@@ -3729,7 +3730,7 @@
 											"top": 278,
 											"width": 192,
 											"height": 13,
-											"text": "+afectar(j: Jugador): +",
+											"text": "+afectar(t: Transito): +",
 											"horizontalAlignment": 0
 										}
 									],
@@ -3935,7 +3936,7 @@
 											"top": 56,
 											"width": 192,
 											"height": 13,
-											"text": "+peso(): float",
+											"text": "+peso(): int",
 											"horizontalAlignment": 0
 										},
 										{
@@ -3953,7 +3954,7 @@
 											"top": 71,
 											"width": 192,
 											"height": 13,
-											"text": "+puntaje(): float",
+											"text": "+puntaje(): int",
 											"horizontalAlignment": 0
 										},
 										{
@@ -4232,7 +4233,7 @@
 											"top": 183,
 											"width": 192,
 											"height": 13,
-											"text": "+peso(): float +",
+											"text": "+peso(): int +",
 											"horizontalAlignment": 0
 										},
 										{
@@ -4250,7 +4251,7 @@
 											"top": 198,
 											"width": 192,
 											"height": 13,
-											"text": "+puntaje(): float +",
+											"text": "+puntaje(): int +",
 											"horizontalAlignment": 0
 										},
 										{
@@ -4492,7 +4493,7 @@
 											"top": 295,
 											"width": 192,
 											"height": 13,
-											"text": "+peso(): float +",
+											"text": "+peso(): int +",
 											"horizontalAlignment": 0
 										},
 										{
@@ -4510,7 +4511,7 @@
 											"top": 310,
 											"width": 192,
 											"height": 13,
-											"text": "+puntaje(): float +",
+											"text": "+puntaje(): int +",
 											"horizontalAlignment": 0
 										},
 										{
@@ -4752,7 +4753,7 @@
 											"top": 503,
 											"width": 192,
 											"height": 13,
-											"text": "+peso(): float +",
+											"text": "+peso(): int +",
 											"horizontalAlignment": 0
 										},
 										{
@@ -4770,7 +4771,7 @@
 											"top": 518,
 											"width": 192,
 											"height": 13,
-											"text": "+puntaje(): float +",
+											"text": "+puntaje(): int +",
 											"horizontalAlignment": 0
 										},
 										{
@@ -5012,7 +5013,7 @@
 											"top": 407,
 											"width": 192,
 											"height": 13,
-											"text": "+peso(): float++",
+											"text": "+peso(): int ++",
 											"horizontalAlignment": 0
 										},
 										{
@@ -5666,7 +5667,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGR560qJiyZrF4="
 									},
-									"type": "float",
+									"type": "int",
 									"direction": "return"
 								}
 							]
@@ -5686,7 +5687,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGR562z4yym8kY="
 									},
-									"type": "float",
+									"type": "int",
 									"direction": "return"
 								}
 							]
@@ -5728,7 +5729,7 @@
 							},
 							"name": "velocidad",
 							"visibility": "protected",
-							"type": "float"
+							"type": "int"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -5778,7 +5779,7 @@
 										"$ref": "AAAAAAGR54wNECuBbh0="
 									},
 									"name": "pes",
-									"type": "float"
+									"type": "int"
 								},
 								{
 									"_type": "UMLParameter",
@@ -5824,7 +5825,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGR5oYEBZtJBic="
 									},
-									"type": "float",
+									"type": "int",
 									"direction": "return"
 								}
 							]
@@ -6073,7 +6074,7 @@
 										"$ref": "AAAAAAGR55GU8SvT8EU="
 									},
 									"name": "v",
-									"type": "float"
+									"type": "int"
 								},
 								{
 									"_type": "UMLParameter",
@@ -6123,7 +6124,7 @@
 										"$ref": "AAAAAAGR55ODTyvw5Ak="
 									},
 									"name": "v",
-									"type": "float"
+									"type": "int"
 								},
 								{
 									"_type": "UMLParameter",
@@ -6248,7 +6249,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGR5o/yBJukqPs="
 									},
-									"type": "float",
+									"type": "int",
 									"direction": "return"
 								}
 							]
@@ -6295,7 +6296,7 @@
 							},
 							"name": "combustible",
 							"visibility": "protected",
-							"type": "float"
+							"type": "int"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -6305,7 +6306,7 @@
 							},
 							"name": "puntaje",
 							"visibility": "protected",
-							"type": "float"
+							"type": "int"
 						}
 					],
 					"operations": [
@@ -6354,7 +6355,7 @@
 										"$ref": "AAAAAAGR5mOpZpnro5A="
 									},
 									"name": "v",
-									"type": "float"
+									"type": "int"
 								}
 							]
 						},
@@ -6374,7 +6375,7 @@
 										"$ref": "AAAAAAGR5oNQI5sPpR8="
 									},
 									"name": "c",
-									"type": "float"
+									"type": "int"
 								}
 							]
 						},
@@ -6394,7 +6395,7 @@
 										"$ref": "AAAAAAGR57Lk9yzK058="
 									},
 									"name": "p",
-									"type": "float"
+									"type": "int"
 								}
 							]
 						},
@@ -6413,7 +6414,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGR5mPukJn3gWM="
 									},
-									"type": "float",
+									"type": "int",
 									"direction": "return"
 								}
 							]
@@ -6433,7 +6434,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGR5oMvz5sGwmI="
 									},
-									"type": "float",
+									"type": "int",
 									"direction": "return"
 								}
 							]
@@ -6453,7 +6454,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGR57QHiSznRTA="
 									},
-									"type": "float",
+									"type": "int",
 									"direction": "return"
 								}
 							]
@@ -6948,7 +6949,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGR5pVUeZvNVrI="
 									},
-									"type": "float ++",
+									"type": "int ++",
 									"direction": "return"
 								}
 							]
@@ -6971,7 +6972,7 @@
 							},
 							"name": "puntaje",
 							"visibility": "protected",
-							"type": "float"
+							"type": "int"
 						}
 					],
 					"operations": [
@@ -6990,7 +6991,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGR5mlDb5ouUpU="
 									},
-									"type": "float",
+									"type": "int",
 									"direction": "return"
 								}
 							]
@@ -7141,7 +7142,9 @@
 										"$ref": "AAAAAAGZfVNsYdVIS58="
 									},
 									"name": "t",
-									"type": "transito"
+									"type": {
+										"$ref": "AAAAAAGR5lI6nZbn1GU="
+									}
 								},
 								{
 									"_type": "UMLParameter",
@@ -7219,9 +7222,9 @@
 									"_parent": {
 										"$ref": "AAAAAAGZfVMEwtU5sTQ="
 									},
-									"name": "j",
+									"name": "t",
 									"type": {
-										"$ref": "AAAAAAGR5lJSNJcRN1A="
+										"$ref": "AAAAAAGR5lI6nZbn1GU="
 									}
 								},
 								{
@@ -7259,7 +7262,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGR5lx/A5lJf7M="
 									},
-									"type": "float",
+									"type": "int",
 									"direction": "return"
 								}
 							],
@@ -7279,7 +7282,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGR5lz6mZlX+G8="
 									},
-									"type": "float",
+									"type": "int",
 									"direction": "return"
 								}
 							],
@@ -7392,7 +7395,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGR5l1pa5mLdWw="
 									},
-									"type": "float +",
+									"type": "int +",
 									"direction": "return"
 								}
 							]
@@ -7412,7 +7415,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGR5l3iAJmZ+3w="
 									},
-									"type": "float +",
+									"type": "int +",
 									"direction": "return"
 								}
 							]
@@ -7481,7 +7484,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGR537qNirHdeU="
 									},
-									"type": "float +",
+									"type": "int +",
 									"direction": "return"
 								}
 							]
@@ -7501,7 +7504,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGR539i3yrU5t0="
 									},
-									"type": "float +",
+									"type": "int +",
 									"direction": "return"
 								}
 							]
@@ -7570,7 +7573,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGR54MJYiscaWY="
 									},
-									"type": "float +",
+									"type": "int +",
 									"direction": "return"
 								}
 							]
@@ -7590,7 +7593,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGR54MonSslIaI="
 									},
-									"type": "float +",
+									"type": "int +",
 									"direction": "return"
 								}
 							]
@@ -7659,7 +7662,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGR54COzSrs1tk="
 									},
-									"type": "float++",
+									"type": "int ++",
 									"direction": "return"
 								}
 							]
